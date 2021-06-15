@@ -72,6 +72,7 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 /* Header */
@@ -186,7 +187,6 @@ img {
   margin: 6px auto 10px auto;
 }
 
-
 /*Produtos*/
 
 .produtos {
@@ -196,6 +196,10 @@ img {
 .produtos_lista li {
   background: #fec63e;
   text-align: center;
+}
+
+.portfolio_lista li img {
+  margin: 0 auto;
 }
 
 .produtos_lista li h3 {
