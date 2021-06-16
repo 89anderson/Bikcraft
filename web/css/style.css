@@ -385,3 +385,43 @@ img {
 	background: #fec63e;
 	padding: 20px 0;
 }
+
+/* javascript */
+
+.js [data-slide] {
+	position: relative;
+  }
+.js  [data-slide] > * {
+	position: absolute;
+	top: 0px;
+	opacity: 0;
+  }
+.js  [data-slide] > .active {
+	position: relative;
+	opacity: 1;
+	transition: opacity 500ms;
+	z-index: 1;
+  }
+
+.js  [data-slide-nav] {
+	  display: block;
+	  text-align: center;
+	  margin-top: 20px;
+  }
+
+.js  [data-slide-nav] button {
+	  display: inline-block;
+	  width: 12px;
+	  height: 12px;
+	  margin: 4px;
+	  border: none;
+	  padding: 0;
+	  border-radius: 6px;
+	  text-indent: -99px;
+	  overflow: hidden;
+	  background: #1d1d1d;
+  }
+
+.js  [data-slide-nav] button.active {
+	background: #fec63e;
+  }

@@ -12,6 +12,9 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/portfolio.css">
 	<link rel="stylesheet" href="css/responsivo.css">
+	<script>
+		document.documentElement.classList.add("js");
+	</script>
 </head>
 
 <body>
@@ -42,20 +45,36 @@
 
 	</section>
 
-	<section class="container">
+	<section class="container" data-slide="quote">
 		<blockquote class="quote_clientes">
-			<p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte."</p>
+			<p>"Adoro pedalar com minha bike por ai, melhor experiencia que ja tive. a vida [e melhor quando a gente pedala"</p>
 			<cite>Barbara Moss</cite>
+		</blockquote>
+
+		<blockquote class="quote_clientes">
+			<p>"Quando comecei a andar de bicicleta minha vida mudou completamente. Obrigado Bikcraft por trazer a melhor experienci que ja tive na vida."</p>
+			<cite>Alberto Roberto</cite>
+		</blockquote>
+
+		<blockquote class="quote_clientes">
+			<p>"A Bikcraft realmente se importa com seus clientes. Atendimento diferenciado e de qualidade. Uma empresa que faz aquilo que gosta."</p>
+			<cite>John Joãozinho</cite>
 		</blockquote>
 	</section>
 
 	<section class="portfolio">
 
-		<div class="container">
+		<div class="container" data-slide="portfolio">
 
 			<ul class="portfolio_lista">
 				<li class="grid-8"><img src="img/portfolio//retro.jpg" alt="bicicleta retro"></li>
 				<li class="grid-8"><img src="img/portfolio//passeio.jpg" alt="bicicleta passeio"></li>
+				<li class="grid-16"><img src="img/portfolio//esporte.jpg" alt="bicicleta esporte"></li>
+			</ul>
+
+			<ul class="portfolio_lista">
+				<li class="grid-8"><img src="img/portfolio//passeio.jpg" alt="bicicleta passeio"></li>
+				<li class="grid-8"><img src="img/portfolio//retro.jpg" alt="bicicleta retro"></li>				
 				<li class="grid-16"><img src="img/portfolio//esporte.jpg" alt="bicicleta esporte"></li>
 			</ul>
 
@@ -112,6 +131,9 @@
 		</div>
 
 	</footer>
+
+	<script src="./js/simple-slide.js"></script>
+	<script src="./js/script.js"></script>
 
 </body>
 
