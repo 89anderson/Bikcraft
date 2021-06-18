@@ -9,8 +9,8 @@
 <p>You can check it out in this <a href="https://89anderson.github.io/Bikcraft/web/index.html">link</a>.</p>
 <br>
 <br>
-<h2>Importante:</h2>
+<h2>Atenção/Be aware:</h2>
 <br>
-<p>Toda a parte em PHP foi apenas reutilizada, não foi feita por mim neste projeto.</p>
+<p>O backend foi provido pelo André, instrutor da Origamid.</p>
 <br>
-<p color="yellow">All the PHP codes here were not made by me. They are plugins created by the community<p>
+<p>The backend of the project was provided by Origamid.<p>
